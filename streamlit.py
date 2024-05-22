@@ -1,8 +1,6 @@
 import streamlit as st
-from fastai.vision.all import *
 import pathlib
 import plotly.express as px
-from predict_func import image_predict
 import os
 import re
 import requests
