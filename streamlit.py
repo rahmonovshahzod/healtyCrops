@@ -1,9 +1,9 @@
 import streamlit as st
-import pathlib
-import plotly.express as px
 import os
 import re
 import requests
+from PIL import Image
+import io
 url = "https://482d-185-213-230-167.ngrok-free.app/predict"
 
 
@@ -56,5 +56,4 @@ if uploaded_file is not None:
 
     delete = st.button("rasmni o'chirish")
     if delete:
-        os.remove(local_image_path)
         st.info("Rasm va natijalar muvaffaqiyatli o'chirildi.")
