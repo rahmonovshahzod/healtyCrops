@@ -1,6 +1,5 @@
 streamlit
-plotly-express
 requests
-regex
-os
-pathlib
+Python-IO
+pillow
+
