@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 from PIL import Image
 import io
-url = "https://482d-185-213-230-167.ngrok-free.app/predict"
+url = "https://4d65-185-213-229-160.ngrok-free.app/predict"
 
 
 
